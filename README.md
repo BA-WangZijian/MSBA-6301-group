@@ -128,13 +128,16 @@ female-to-male AIR: 1.06
 
 ### Ethical considerations 
 * **Describe potential negative impacts of using your model**: 
+
 Using the ARIMA model to predict time series data must be stable, or it is stable after being differentiated. If the data is unstable, the law cannot be captured. For example, stable data has no trend or seasonality; that is, its mean value has a constant amplitude on the time axis, and its variance tends to the same stable value on the time axis.
 However, it may be that the contact time is relatively short, the use of this model is less and the understanding is not deep enough, so we have not encountered such troubles at present.
 
 * **Describe potential uncertainties relating to the impacts of using your model**: 
+
 The uncertainty of this model exists in only capturing linear relationships, not nonlinear relationships.This is something we need to judge in advance.ARIMA model is used to predict time series data, which must be stable. If the data is unstable, the law cannot be captured. Stock data, for example, cannot be predicted by ARIMA because stock data are unstable and often subject to changes in policy and news.
 
 
 * **Describe any unexpected or results**: 
+
 As a beginner, this lesson brings us to the world of code. After experiencing it, I have a lot of insights. I think code is also a way to exchange ideas. The quality of the code is very important, but high-quality program code is not so easy to produce, it requires careful thinking and research. Second, many times I spend a lot of precious time trying to solve a problem, but in fact, I can get results by simply searching at the beginning. There are countless examples of this. When I encounter a problem, it is likely that someone else has encountered the same problem long ago and found a solution. Save yourself some time, Google first, Google will surprise you.
 
